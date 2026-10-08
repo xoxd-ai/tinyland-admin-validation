@@ -11,8 +11,8 @@
 
 
 // Must mirror the ratified permission vocabulary in @tummycrypt/tinyland-auth
-// v0.4.0 (src/types/permissions.ts AdminPermission). This is a validated
-// subset (not the full 21-permission authority set); every entry here must
+// v1.0.0 (src/types/permissions.ts AdminPermission). This is a validated
+// subset (not the full 23-permission authority set); every entry here must
 // also exist there. See TIN-2435; tests/vocabulary-alignment.test.ts asserts
 // this stays in sync.
 export type AdminPermission =

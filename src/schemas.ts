@@ -17,7 +17,7 @@ import type { AdminPermission } from './types.js';
 
 
 // ADMIN_ROLES and ADMIN_PERMISSIONS must mirror the ratified vocabulary in
-// @tummycrypt/tinyland-auth v0.4.0 (src/types/auth.ts ADMIN_ROLES,
+// @tummycrypt/tinyland-auth v1.0.0 (src/types/auth.ts ADMIN_ROLES,
 // src/types/permissions.ts AdminPermission) exactly. See TIN-2435.
 // tests/vocabulary-alignment.test.ts asserts this stays in sync.
 export const ADMIN_ROLES: AdminRole[] = [
