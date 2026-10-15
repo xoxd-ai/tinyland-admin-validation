@@ -1,6 +1,7 @@
 {
   "name": "@tummycrypt/tinyland-admin-validation",
   "version": "0.2.3",
+  "private": true,
   "description": "Zod validation schemas for admin user management",
   "type": "module",
   "main": "./dist/index.js",
@@ -20,7 +21,6 @@
     "build": "tsc",
     "dev": "tsc --watch",
     "clean": "rm -rf dist",
-    "prepublishOnly": "pnpm build && pnpm check:package",
     "test": "vitest run",
     "test:coverage": "vitest --coverage",
     "typecheck": "tsc --noEmit",
@@ -30,7 +30,7 @@
   "license": "Zlib AND LicenseRef-Tinyland-Proprietary",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tinyland-inc/tinyland-admin-validation.git"
+    "url": "git+https://github.com/xoxd-ai/tinyland-admin-validation.git"
   },
   "dependencies": {
     "zod": "^3.23.0"
@@ -44,13 +44,9 @@
   "engines": {
     "node": ">=22.0.0"
   },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
-    "access": "public"
-  },
   "packageManager": "pnpm@10.13.1",
-  "homepage": "https://github.com/tinyland-inc/tinyland-admin-validation",
+  "homepage": "https://github.com/xoxd-ai/tinyland-admin-validation",
   "bugs": {
-    "url": "https://github.com/tinyland-inc/tinyland-admin-validation/issues"
+    "url": "https://github.com/xoxd-ai/tinyland-admin-validation/issues"
   }
 }
